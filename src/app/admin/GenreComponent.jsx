@@ -11,7 +11,7 @@ export default function GenreComponent() {
     return  onSnapshot(query(collection(db,"genres")), orderBy("updatedAt","desc"), (snapshot) =>{
       setGenres(snapshot)
     })
-  },[db])
+  },[])
 
   console.log(genres);
 

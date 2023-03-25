@@ -25,7 +25,7 @@ export default function Header() {
     return () => {
       window.addEventListener('resize',handleResize)
     }
-  },[])
+  },[setIsDrawer])
   
   return (
     <>

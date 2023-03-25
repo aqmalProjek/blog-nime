@@ -21,7 +21,7 @@ export default  function LoginPage() {
         router.push('/');
       }
 
-    },[session])
+    },[session,router])
 
 
    
